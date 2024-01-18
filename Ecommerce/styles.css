@@ -1,0 +1,41 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+}
+
+header, footer {
+    background-color: #fc9;
+    color: #555;
+    text-align: center;
+    padding: 30px;
+}
+
+#product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.product-card {
+    border: 5px solid #000000;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 20px;
+    width: 1080px;
+    text-align: justify;
+}
+
+#user-reviews {
+    padding: 20px;
+    background-color: #b58;
+}
+
+.review-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+}
